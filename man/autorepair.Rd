@@ -1,0 +1,20 @@
+\name{autorepair}
+\alias{autorepair}
+\title{
+Get information(name,address,rates) of auto repair shops from yelp using your own yelp api key
+}
+\description{
+simply typing the city name you want to check and your yelp api key, the function will give you all information (address,rate, etc) of 50 auto repair shop in that city.}
+
+\usage{
+autorepair(api1="your client id ",api_key1= "your client_secret",i="City,State")
+}
+%- maybe also 'usage' for other objects documented here.
+
+\author{
+Jiatong Li
+}
+
+\examples{
+autorepair(api1="q-f2lLVGZkys5AVkVPWsuQ",api_key1 =  "tLcN4rX8BzXZTSE5fYKHntHgSbjHilyGQV8VoXq0zGgiwP7RM8rS0PCOuRyRpn6UkMsEE9gnXWqEs2V32IreXfwVjao7iiAgKeJQ85u2n_mbuZn3-Tuq3R7qs4CPX3Yx",i="Santa Cruz,CA")
+}
